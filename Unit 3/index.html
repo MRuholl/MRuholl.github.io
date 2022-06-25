@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Images for Display Size</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Image Gallery</h1>
+    <p>Resize the browser window to display different images.</p>
+    <hr>
+  </header>
+
+  <main>
+    <h3>Ball</h3>
+    <picture>
+      <source media="(min-width: 769px)" srcset="Images/ball4.jpeg">
+      <source media="(min-width: 426px)" srcset="Images/ball3.jpg">
+      <source media="(min-width: 321px)" srcset="Images/ball2.jpg">
+      <img src="Images/ball1.jpg" alt="ball"  style="width:200px;height:200px;">
+    </picture>
+    <hr>
+
+    
+    <h3>Dog</h3>
+    <picture>
+      <source media="(min-width: 769px)" srcset="Images/dog4.jpg">
+      <source media="(min-width: 426px)" srcset="Images/dog3.jpg">
+      <source media="(min-width: 321px)" srcset="Images/dog2.jpg">
+      <img src="Images/dog1.png" alt="dog" style="width:200px;height:200px;">
+    </picture>
+    
+    <hr>
+
+    
+    <h3>House</h3>
+    <picture>
+      <source media="(min-width: 769px)" srcset="Images/house4.jpg">
+      <source media="(min-width: 426px)" srcset="Images/house3.jpg">
+      <source media="(min-width: 321px)" srcset="Images/house2.png">
+      <img src="Images/house1.jpg" alt="house" style="width:200px;height:200px;">
+    </picture>
+  </main>
+
+  <footer>
+    &copy;&nbsp;<i>2022 Max Ruholl</i>
+  </footer>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
