@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.Ice{
+  height: 300px
+}
+
+main{
+  color: brown;
+  background: lightgreen;
+  border-radius: 10px;
+}
+
+body{
+  background-image: url("images/MarioBackground.jpg");
+  background-size: cover;
+}
+
+#wrapper{
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+li{
+  list-style-image: url("images/SuperMario.png");
+}
+
+.specialborder{
+  border: 45px solid transparent;
+  padding: 10px;
+  border-image: url("images/GreenPipe.png") 30% round;
+  
+}
+.borderimage{
+  width: 100px;
+  height: 100px;
+}
