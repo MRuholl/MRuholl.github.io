@@ -1,0 +1,13 @@
+table, td{
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+table{
+  width: 75%;
+  background-color: rgb(230, 230, 230);
+}
+td{
+  padding: 3px;
+}
+tr.pg:hover{background-color: lightgreen}
+tr.rt:hover{background-color: tomato}
