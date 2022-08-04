@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a href="/Unit 11/index.html">Homepage</a><br>
+  <br>
+  <form action="http://webdevbasics.net/scripts/demo.php" target="_blank" method="post">
+    <label for="user">User&colon;</label>
+    <input type="text" id="user" name="user" maxlength="30" size="30"><br>
+    <input type="hidden" id="userid" name="userid" value="1234"><br>
+    <label for="pwd">Password&colon;</label>
+    <input type="password" id="pwd" name="pword"><br>
+    <br>
+    <fieldset>
+      <legend>Favorite Month</legend>
+        <input type="radio" id="jan" name="month" value="January">
+        <label for="jan">January</label><br>
+        <input type="radio" id="feb" name="month" value="February">
+        <label for="feb">February</label><br>
+        <input type="radio" id="mar" name="month" value="March">
+        <label for="mar">March</label><br>
+        <input type="radio" id="apr" name="month" value="April">
+        <label for="apr">April</label><br>
+        <input type="radio" id="may" name="month" value="May">
+        <label for="may">May</label><br>
+        <input type="radio" id="jun" name="month" value="June">
+        <label for="jun">June</label><br>
+        <input type="radio" id="jul" name="month" value="July">
+        <label for="jul">July</label><br>
+        <input type="radio" id="aug" name="month" value="August">
+        <label for="aug">August</label><br>
+        <input type="radio" id="sep" name="month" value="September">
+        <label for="sep">September</label><br>
+        <input type="radio" id="oct" name="month" value="October">
+        <label for="oct">October</label><br>
+        <input type="radio" id="nov" name="month" value="November">
+        <label for="nov">November</label><br>
+        <input type="radio" id="dec" name="month" value="December">
+        <label for="dec">December</label><br>
+    </fieldset><br>
+    <br>
+
+    <label for="social">Favorite social media platform</label>
+    <select id="social" name="media">
+      <option value="Select">Select</option>
+      <option value="Twitter">Twitter</option>
+      <option value="Facebook">Facebook</option>
+      <option value="Instagram">Instagram</option>
+      <option value="Snapchat">Snapchat</option>
+      <option value="BeReal">BeReal</option>
+      <option value="LinkedIn">LinkedIn</option>
+      <option value="TikTok">TikTok</option>
+    </select><br>
+    <br>
+
+    <fieldset>
+      <legend>Shipping Addresss</legend>
+      <label for="address1">AddressLine1</label>
+      <input type="text" id="address1" name="address1"><br>
+      <label for="address2">AddressLine2</label>
+      <input type="text" id="address2" name="address2"><br>
+      <label for="city">City</label>
+      <input type="text" id="city" name="city"><br>
+      <label for="state">State</label>
+      <input type="text" id="state" name="state"><br>
+      <label for="zip">ZIP</label>
+      <input type="text" id="zip" name="zip"><br>
+    </fieldset><br>
+    <br>
+
+    <input type="image" src="/form/button_submit.jpg" alt="submit"><br>
+
+    
+
+    
+  </form>
+</body>
+
+</html>
